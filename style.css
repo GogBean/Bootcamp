@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: #f4f6f8;
+}
+
+.section1 {
+    background: linear-gradient(135deg, #222246, #34495e);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 80px 50px;
+}
+
+.left,
+.right {
+    flex: 1;
+    padding: 20px;
+}
+
+.left h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 5px solid white;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.section2 {
+    background: white;
+
+    text-align: center;
+
+    margin: 40px 20px;
+    padding: 50px 30px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.section2 h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section2 p {
+    max-width: 700px;
+    margin: auto;
+    color: #555;
+}
+
+    .left,
+    .right {
+        padding: 15px;
+    }
+
+    .right img {
+        width: 220px;
+        height: 220px;
+    }
+
+.contact {
+    background: white;
+    margin: 40px 20px;
+    padding: 40px;
+
+    border-radius: 25px;
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact input {
+    width: 80%;
+    max-width: 400px;
+
+    padding: 12px;
+    margin: 10px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: 16px;
+}
+
+.contact button {
+    padding: 12px 25px;
+
+    background: rgb(34, 34, 70);
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+}
