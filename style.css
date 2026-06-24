@@ -5,10 +5,13 @@ body {
     line-height: 1.6;
     color: #222;
     background: #f4f6f8;
+    background-image: url('myimage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section1 {
-    background: linear-gradient(135deg, #222246, #34495e);
+    /*background: linear-gradient(135deg, #222246, #34495e);*/
     color: white;
 
     display: flex;
@@ -51,7 +54,7 @@ body {
 }
 
 .section2 {
-    background: white;
+    background: rgb(179, 169, 207);
 
     text-align: center;
 
@@ -71,7 +74,7 @@ body {
 .section2 p {
     max-width: 700px;
     margin: auto;
-    color: #555;
+    color: #000303;
 }
 
     .left,
@@ -85,10 +88,9 @@ body {
     }
 
 .contact {
-    background: white;
+    background: rgb(179, 169, 207);
     margin: 40px 20px;
     padding: 40px;
-
     border-radius: 25px;
     text-align: center;
 
@@ -100,7 +102,7 @@ body {
 }
 
 .contact input {
-    width: 80%;
+    width: 70%;
     max-width: 400px;
 
     padding: 12px;
@@ -110,14 +112,38 @@ body {
     border-radius: 10px;
 
     font-size: 16px;
+    
 }
 
 .contact button {
-    padding: 12px 25px;
+    padding: 14px 25px;
 
     background: rgb(34, 34, 70);
     color: white;
 
     border: none;
     border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #050529;
+    padding: 10px 0;
+    margin: 0;
+    gap: 150px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
