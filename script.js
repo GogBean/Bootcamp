@@ -1,8 +1,12 @@
-//
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector("#contactform");
 
-let name = "John Doe";  
-let age = 30;
-let isStudent = true;
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
 
-alert("hello world");
-cnsole.log("Name: " + name);
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+
+        alert(`Name: ${name}\nEmail: ${email}`);
+    });
+});
